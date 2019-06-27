@@ -1,0 +1,3 @@
+#子目录/src中的CMakeLists.txt
+AUX_SOURCE_DIRECTORY(. DIR_TEST1_SRCS)
+ADD_LIBRARY(test1 ${DIR_TEST1_SRCS})
